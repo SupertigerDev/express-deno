@@ -3,7 +3,7 @@ import Router from './Router.ts'
 import Request from './Request.ts'
 import Response from './Response.ts'
 
-export class Express extends Router {
+export default class Express extends Router {
     server: Server;
 
     constructor(server: Server) {
