@@ -1,4 +1,4 @@
-import Express from './mod.ts'
+import Express from 'https://raw.githubusercontent.com/supertiger1234/express-deno/master/mod.ts'
 import { serve } from "https://deno.land/std@v0.42.0/http/server.ts";
 
 
